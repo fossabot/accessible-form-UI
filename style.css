@@ -137,11 +137,15 @@ h1{text-align: center;
     text-decoration: line-through;
 }
 
-.eye{
+.eye {
     position: relative;
 
     left: -45px;
     top: 10px;
     width: 30px;
     height: 30px;
+}
+
+.profile-complete{
+    font-size: 1.4em;
 }
