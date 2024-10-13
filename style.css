@@ -1,0 +1,128 @@
+body{ 
+    background-color: white;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;  
+}
+
+#UI-component{
+
+    background-color: silver;
+    color:darkslategray;
+    width: fit-content;
+    height: fit-content;
+    
+    border: 2px solid darkseagreen;
+    border-radius: 25px;
+
+    text-align: left;
+    display:flex;
+    flex-direction: row;
+
+    margin: 0 auto;
+    padding: 40px;    
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+label {
+    font-size: 1.0em;
+    margin: 9px ;
+   
+    padding:0px 3px;
+    text-align: left;
+    
+}
+
+#p1{
+    margin:0;
+    padding: 3px;
+    color:crimson;
+    font-weight: 800;
+    font-size: 0.85em;
+}
+
+#email{
+    color:crimson;
+ 
+    border: 1px solid crimson;
+}
+
+input {
+    font-size: 1.05em;
+    margin:0 auto;
+    padding:5px;
+    padding-top: 1px;
+    
+    border-radius: 7px;
+    
+}
+
+button{
+    background-color: black;
+    color:white;
+    font-size: 1.15em;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 7px;
+
+    margin:15px;
+    padding: 7px 14px;
+}
+
+#infos{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+
+    padding:40px  60px;
+
+    text-align: center;
+}
+
+
+#circle {
+    
+    margin: 5px auto;
+    
+    padding: 12px 20px 20px 20px;
+    border:2px solid darkcyan;
+    border-radius: 50%;
+
+   width:85px;
+   height:85px;
+
+
+    color: darkcyan;
+}
+
+h1{text-align: center;}
+
+.ul{
+    list-style-type: none;
+
+    margin: 0 auto;
+    padding:45px;
+
+    background-color:lightblue;
+    color:darkolivegreen;
+
+    border: none;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.li{ 
+    margin: 0 auto;
+   
+}
+
+.crossed{
+    text-decoration: line-through;
+}
