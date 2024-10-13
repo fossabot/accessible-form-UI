@@ -7,7 +7,7 @@ body{
 
 #UI-component{
 
-    background-color: silver;
+    background-color: whitesmoke;
     color:darkslategray;
     width: fit-content;
     height: fit-content;
@@ -32,16 +32,16 @@ body{
 
 label {
     font-size: 1.0em;
-    margin: 9px ;
+    margin: 9px 9px 3px ;
    
-    padding:0px 3px;
+    padding:0px;
     text-align: left;
     
 }
 
 #p1{
     margin:0;
-    padding: 3px;
+    padding: 2px 7px;
     color:crimson;
     font-weight: 800;
     font-size: 0.85em;
@@ -55,11 +55,14 @@ label {
 
 input {
     font-size: 1.05em;
-    margin:0 auto;
-    padding:5px;
-    padding-top: 1px;
+   
+    margin:2px 5px 8px 5px;
+    padding:4px 8px;
     
     border-radius: 7px;
+
+    width:320px;
+    height:32px;
     
 }
 
@@ -71,17 +74,22 @@ button{
     border: none;
     border-radius: 7px;
 
-    margin:15px;
-    padding: 7px 14px;
+    margin:30px 5px;
+    padding: 5px 14px;
+
+    width:340px;
+    height:42px;
 }
 
 #infos{
 
     display: flex;
     flex-direction:column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
 
-    padding:40px  60px;
+
+    padding:20px 60px 20px;
 
     text-align: center;
 }
@@ -102,16 +110,18 @@ button{
     color: darkcyan;
 }
 
-h1{text-align: center;}
+h1{text-align: center;
+   padding-bottom: 55px;}
+
 
 .ul{
     list-style-type: none;
 
     margin: 0 auto;
-    padding:45px;
+    padding:25px 25px 50px;
 
-    background-color:lightblue;
-    color:darkolivegreen;
+    background-color:silver;
+    color:darkslategrey;
 
     border: none;
     border-radius: 15px;
@@ -125,4 +135,13 @@ h1{text-align: center;}
 
 .crossed{
     text-decoration: line-through;
+}
+
+.eye{
+    position: relative;
+
+    left: -45px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
 }
